@@ -3,3 +3,4 @@ name: solenopsys-ds-postgres
 version: 0.1.1
 description: Postgresql DB
 icon: "http://alexstorm.solenopsys.org/apps/assets/solenopsys-ds-postgres.svg"
+appVersion: 1.0.0
