@@ -10,13 +10,13 @@ storage:
   volumeClimeName: postgres-pvc
   storageSize: 1Gi
   accessModes: "ReadWriteOnce"
-  hostPath: "/opt/dgraph-volume"
+  hostPath: "/opt/postgresql-volume"
   storageClass: "local-path"
 
 containers:
   postgres:
     name: postgres
-    image: postgres:14.4
+    image: postgres:15.2
     pullPolicy: IfNotPresent
     secret: alexstorm-pg-password
 
