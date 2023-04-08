@@ -9,7 +9,7 @@ helm_build_push(){
 
 NAME=solenopsys-ds-postgres
 ARCHS="linux/amd64,linux/arm64"
-VER=0.1.3
+VER=0.1.4
 
 helm_build_push
 

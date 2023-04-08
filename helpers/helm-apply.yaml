@@ -6,6 +6,6 @@ metadata:
 spec:
   chart:  solenopsys-ds-postgres
   targetNamespace: default
-  version: 0.1.3
+  version: 0.1.4
   repo: https://helm.solenopsys.org
   helmVersion: v3

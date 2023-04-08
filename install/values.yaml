@@ -18,6 +18,6 @@ containers:
     name: postgres
     image: postgres:15.2
     pullPolicy: IfNotPresent
-    secret: alexstorm-pg-password
+    secret: pg-password
 
 
