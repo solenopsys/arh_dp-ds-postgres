@@ -33,6 +33,14 @@ spec:
                   optional: false
             - name: PGDATA
               value: /var/lib/postgresql/data/pgdata
+            - name: POSTGRES_MAX_CONNECTIONS
+              value: "100"
+            - name: POSTGRES_TCP_KEEPALIVES_IDLE
+              value: "60"
+            - name: POSTGRES_TCP_KEEPALIVES_INTERVAL
+              value: "10"
+            - name: POSTGRES_TCP_KEEPALIVES_COUNT
+              value: "6"
       terminationGracePeriodSeconds: 60
       volumes:
         - name: {{ .Values.storage.volumeName }}
